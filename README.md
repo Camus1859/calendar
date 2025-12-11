@@ -1,6 +1,23 @@
-## This project was built from scratch, (no tutorial only google) I built the calendar because I wanted to gain more experience with <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS">OOP </a>. This project clarified many misconceptions and misunderstandings I had about OOP.
+  ## Calendar
 
-## I created my own algorithim to make the calendar function. This was very difficult yet extremely rewarding. I enjoyed building this app!
+  A full-stack calendar app with custom date calculation algorithm built from scratch.
 
-## <a href="https://laventure-calendar-app.herokuapp.com//">Calendar App</a> Live.
+  ### Features
 
+  - Custom algorithm for calculating day-of-week and month layouts
+  - Event CRUD operations with MongoDB
+  - US national holidays via external API
+
+  ### Tech Stack
+
+  Express, MongoDB, Mongoose, Vanilla JavaScript
+
+  ### Run Locally
+
+  ```bash
+  npm install
+  npm run dev
+
+  Note
+
+  The calendar math doesn't rely on built-in Date APIs for month calculation—I implemented the algorithm myself.
