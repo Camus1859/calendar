@@ -1,26 +1,20 @@
-## Calendar
+  ## Calendar
 
-  **Live:** https://calendar-mntm.onrender.com
+  A full-stack calendar app built with object-oriented JavaScript.
 
-  A full-stack calendar app with custom date calculation algorithm built from scratch.
+  **Live Demo:** https://calendar-mntm.onrender.com
 
   ### Features
 
-  - Custom algorithm for calculating day-of-week and month layouts
-  - Event CRUD operations with MongoDB
-  - US national holidays via external API
+  - ES6 class-based architecture for calendar, events, and UI
+  - Navigate between months and years
+  - Create, edit, and delete events
+  - US national holidays via third-party API integration
 
   ### Tech Stack
 
-  Express, MongoDB, Mongoose, Vanilla JavaScript
+  Express, MongoDB, Mongoose, Vanilla JavaScript (ES6 Classes)
 
   ### Run Locally
 
-  ```bash
-  npm install
-  npm run dev
-
-  Note
-
-  The calendar math doesn't rely on built-in Date APIs for month calculation—I implemented the algorithm myself.
-  ```
+  Requires MongoDB connection string in a `.env` file.
