@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,36 +16,35 @@
     <div id="container-body">
       <div id="top">
         <div class="dropdown-month-year">
-          <!-- <div id="month-year-tabs">
-            <span id="months-tab"></span>
-            <span id="years-tab"></span>
-          </div> -->
           <div id="date-selector-container">
-
-          <div id="date-selectors">
-            <select
-              onmousedown="if(this.options.length>8){this.size=5;}"
-              onchange="this.size=0;"
-              onblur="this.size=0"
-              id="month-selector"
-            >
-              Select A Month
-              <option value="" disabled selected value>Select A Month</option>
-              <option class="month" value="January">January</option>
-              <option class="month" value="February">February</option>
-              <option class="month" value="March">March</option>
-              <option class="month" value="April">April</option>
-              <option class="month" value="May">May</option>
-              <option class="month" value="June">June</option>
-              <option class="month" value="July">July</option>
-              <option class="month" value="August">August</option>
-              <option class="month" value="September">September</option>
-              <option class="month" value="October">October</option>
-              <option class="month" value="November">November</option>
-              <option class="month" value="December">December</option>
-            </select>
+            <div id="date-selectors">
+              <select
+                onmousedown="
+                  if (this.options.length > 8) {
+                    this.size = 5;
+                  }
+                "
+                onchange="this.size = 0"
+                onblur="this.size = 0"
+                id="month-selector"
+              >
+                Select A Month
+                <option value="" disabled selected value>Select A Month</option>
+                <option class="month" value="January">January</option>
+                <option class="month" value="February">February</option>
+                <option class="month" value="March">March</option>
+                <option class="month" value="April">April</option>
+                <option class="month" value="May">May</option>
+                <option class="month" value="June">June</option>
+                <option class="month" value="July">July</option>
+                <option class="month" value="August">August</option>
+                <option class="month" value="September">September</option>
+                <option class="month" value="October">October</option>
+                <option class="month" value="November">November</option>
+                <option class="month" value="December">December</option>
+              </select>
+            </div>
           </div>
-        </div>
 
           <div>
             <label id="year-label" for="year-input">Year:</label>

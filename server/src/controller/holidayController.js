@@ -23,6 +23,8 @@ exports.getHolidays = async (req, res) => {
         );
         const allHolidays = await response.json();
 
+        if(!allHolidays) return
+
         const USNationalHolidays = allHolidays.response.holidays.filter(
             (holiday) => holiday.type[0] === 'National holiday'
         );
